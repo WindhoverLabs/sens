@@ -11,7 +11,7 @@ module.exports = class CfeCdrPlugin extends CdrPlugin {
 
   getContent() {
     var result = {
-      shortDescription: 'SENS',
+      shortDescription: 'Sensor Combined',
       longDescription: 'Sensor Combined Message.',
       nodes: {
         main: {
