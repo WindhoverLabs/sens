@@ -7,6 +7,7 @@ add_airliner_app_def(sens
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sens_config_utils.cpp
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sens_events.h
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sens_msg.h
+        ${CMAKE_CURRENT_SOURCE_DIR}/../src/sens_symbols.c
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sens_tbldefs.h
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sens_version.h
 
