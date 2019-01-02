@@ -68,7 +68,6 @@ typedef struct
 	float Max[PX4_RC_INPUT_MAX_CHANNELS];           /* RC%d_MAX */
 	float Rev[PX4_RC_INPUT_MAX_CHANNELS];           /* RC%d_REV */
 	float DZ[PX4_RC_INPUT_MAX_CHANNELS];            /* RC%d_DZ */
-	float ScalingFactor[PX4_RC_INPUT_MAX_CHANNELS];
 
 	int32 MapRoll;                                  /* RC_MAP_ROLL          */
 	int32 MapPitch;                                 /* RC_MAP_PITCH         */
