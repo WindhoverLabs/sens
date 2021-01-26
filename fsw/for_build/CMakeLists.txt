@@ -1,5 +1,5 @@
 
-add_airliner_app_def(sens
+buildliner_add_app_def(sens
     FILE SENS
     SOURCES
         ${CMAKE_CURRENT_SOURCE_DIR}/../src/sens_app.cpp
@@ -21,7 +21,7 @@ add_airliner_app_def(sens
         ${PROJECT_SOURCE_DIR}/apps/sens/fsw/platform_inc
 )
 
-add_airliner_app_unit_test(sens-ut
+buildliner_add_app_unit_test(sens-ut
     UTASSERT
     NO_HELGRIND
     NO_MASSIF
